@@ -26,6 +26,7 @@ Sample JSON requests
 
 
 - Balance
+<p>
 {
 
         "address": "0:ac7b215935c08fc7352ee678c974074890a3314a64a20974b4024537ed891a41",
@@ -33,6 +34,7 @@ Sample JSON requests
         "privateKey": "61428dcae4094df1b691911894a9f074152e0c53daa5q95f66f8dd84336c04544a00661d700b392bcfc095e92be9d9f31ae8bdb1464c58897013b7c4fff11bbe"
     
 }
+</p>
 - New Wallet
 none
 
