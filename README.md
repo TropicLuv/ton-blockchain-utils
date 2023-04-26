@@ -1,10 +1,11 @@
 <h1>Express.js api for interacting with TON Blockchain</h1>
 http://localhost:5000/api/v1/ = api
-
+<br>
 TON Coins + Wallet
 - [ ] GET api/ton/balance - checking balance of the wallet
 - [ ] POST api/ton/create-wallet - creating(deploying) new wallet
 - [ ] POST api/ton/transfer - transfering TON coins
+<br>
 
 TON NFT
 - [ ] POST api/nft/collection/deploy - creating(deploying) NFT Collection
@@ -14,17 +15,22 @@ TON NFT
 - [ ] GET api/nft/info - getting information about NFT Item
 - [ ] POST api/nft/item/transfer - transfering NFT from some wallet
 - [ ] POST api/nft/marketplace/create - creating(deploying) Marketplace (needed to deploy NFT Collection)
+<br>
 
 TON Jetton
 - [ ] POST api/jetton/mint - minting Jetton
 - [ ] POST api/jetton/deploy-minter - creating(deploying)minter to mint Jetton 
+<br>
+<br>
 
 
 Sample JSON requests
+<br>
 
 
 <h2>Ton Coin + Wallet</h2>
 
+<br>
 
 - Balance
 <code>
@@ -55,9 +61,12 @@ none
 }
 </code>
 
+<br>
+<br>
 
 
 <h2>NFT Collection</h2>
+<br>
 
 - Create NFT Collection
 <code>
@@ -194,8 +203,10 @@ none
 }
 </code>
 
+<br>
 
 <h2>Ton Jetton</h2>
+<br>
 
 - Mint Jetton
 <code>
