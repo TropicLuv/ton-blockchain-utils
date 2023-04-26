@@ -22,6 +22,7 @@ TON Jetton
 
 Sample JSON requests
 
+
 <h2>Ton Coin + Wallet</h2>
 
 
@@ -33,10 +34,15 @@ Sample JSON requests
         "privateKey": "61428dcae4094df1b691911894a9f074152e0c53daa5q95f66f8dd84336c04544a00661d700b392bcfc095e92be9d9f31ae8bdb1464c58897013b7c4fff11bbe"
 }
 </code>
-- New Wallet
-none
 
+- New Wallet
+<code>
+- 
+none
+</code>
+        
 - Transfer TON
+<code>
 {
             "wallet":  {
                 "address": "0:ac7b215935c08fc7352ee678c974074890a3314a64a20974b4024537ed891a41",
@@ -47,10 +53,14 @@ none
             "amount" : 0.2,
             "message" : "root"
 }
+</code>
+
+
 
 <h2>NFT Collection</h2>
 
 - Create NFT Collection
+<code>
 {
     "owner" : {
         "address" : "0:ac7b215935c08fc7352ee678c974074890a3314a64a20974b40537ed89106a41",
@@ -65,8 +75,10 @@ none
     "nftItemContentBaseUri": "https://nft-world.space/gems/json/"
 
 }
+</code>
 
 - Get NFT Collection info
+<code>
 {
     "owner" : {
         "address" : "0:ac7b215935c08fc7352ee678c974074890a3314a64a20974b40537ed89106a41",
@@ -79,10 +91,11 @@ none
     "royalty" : 0.13,
     "collectionContentUri" : "111",
     "nftItemContentBaseUri": "111"
-
 }
+</code>
 
 - Updating NFT Collection
+<code>
 {
     "collection": {
         "owner" : {
@@ -102,10 +115,11 @@ none
     "newRoyaltyAddress": "0:ac7b215935c08fc7352ee678c974074890a3314a64a20974b40537ed89106a41",
     "newCollectionContentUri" : "https://nft-world.space/gems/collection.json",
     "newNftItemContentBaseUri": "https://nft-world.space/gems/json/" 
-
 }
+</code>
 
 - Deploying NFT Item
+<code>
 {
     "id" : 3,
     
@@ -125,8 +139,10 @@ none
 },
     "itemContentUri": "1.json"
 }
+</code>
 
 - NFT Item info
+<code>
 {
     "id" :0,
     "nftCollection" : {
@@ -145,8 +161,10 @@ none
     },
          "itemContentUri": "0.json"
 }
+</code>
 
 - Transfering NFT 
+<code>
 {   
     "owner" : {
         "address" : "0:ac7b215935c08fc7352ee678c974074890a3314a64a20974b40537ed89106a41",
@@ -163,8 +181,10 @@ none
             "privateKey": "e6f12483401b8e04029c1bd3bab883fda9e3596e270db27289ed240259ee4176d57494c6cd77f031d22d40002a391365824784fb07c03d8d01c9005715881e7f"
         }
 }
+</code>
 
 - Deploying Marketplace
+<code>
 {
     "address" : "0:ac7b215935c08fc7352ee678c974074890a3314a64a20974b40537ed89106a41",
     "publicKey" :
@@ -172,11 +192,13 @@ none
     "privateKey" :
         "61428dcae4094df1b691911894a9f074152e0c53daa520cf66f8dd84336c04544a00661d700b392bcfc095e92be9d9f31ae8bdb1464c58897013b7c4fff11bbe"
 }
+</code>
 
 
 <h2>Ton Jetton</h2>
 
 - Mint Jetton
+<code>
 {
 "minter": {
     "minterWallet" : {
@@ -191,8 +213,10 @@ none
     },
     "tokens" : 100500
 }
+</code>
 
 - Deploy Minter
+<code>
 {
     "minterWallet" : {
             "address" : "0:ac7b215935c08fc7352ee678c974074890a3314a64a20974b40537ed89106a41",
@@ -205,3 +229,4 @@ none
 
 
 }
+</code>
