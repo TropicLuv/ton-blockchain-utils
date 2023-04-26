@@ -1,4 +1,4 @@
-<h1>Express.js api for integrating with TON Blockchain</h1>
+<h1>Express.js api for interacting with TON Blockchain</h1>
 http://localhost:5000/api/v1/ = api
 
 TON Coins + Wallet
@@ -26,28 +26,26 @@ Sample JSON requests
 
 
 - Balance
-<p>
 {
-
+{
         "address": "0:ac7b215935c08fc7352ee678c974074890a3314a64a20974b4024537ed891a41",
         "publicKey": "4a00661d700b392bcfc095e92be9d9f31ae8bdb1464c58897013b7c4fffqqbbe",
         "privateKey": "61428dcae4094df1b691911894a9f074152e0c53daa5q95f66f8dd84336c04544a00661d700b392bcfc095e92be9d9f31ae8bdb1464c58897013b7c4fff11bbe"
-    
 }
-</p>
+}
 - New Wallet
 none
 
 - Transfer TON
 {
-    "wallet":  {
-        "address": "0:ac7b215935c08fc7352ee678c974074890a3314a64a20974b4024537ed891a41",
-        "publicKey": "4a00661d700b392bcfc095e92be9d9f31ae8bdb1464c58897013b7c4fffqqbbe",
-        "privateKey": "61428dcae4094df1b691911894a9f074152e0c53daa5q95f66f8dd84336c04544a00661d700b392bcfc095e92be9d9f31ae8bdb1464c58897013b7c4fff11bbe"
-        },
-    "toAddress": "0:f4ec29b7b394f205dee0770724b86b2c3c5a77bec7acd9491d7c31583c7b50a3",
-    "amount" : 0.2,
-    "message" : "root"
+            "wallet":  {
+                "address": "0:ac7b215935c08fc7352ee678c974074890a3314a64a20974b4024537ed891a41",
+                "publicKey": "4a00661d700b392bcfc095e92be9d9f31ae8bdb1464c58897013b7c4fffqqbbe",
+                "privateKey": "61428dcae4094df1b691911894a9f074152e0c53daa5q95f66f8dd84336c04544a00661d700b392bcfc095e92be9d9f31ae8bdb1464c58897013b7c4fff11bbe"
+                },
+            "toAddress": "0:f4ec29b7b394f205dee0770724b86b2c3c5a77bec7acd9491d7c31583c7b50a3",
+            "amount" : 0.2,
+            "message" : "root"
 }
 
 <h2>NFT Collection</h2>
